@@ -1,0 +1,41 @@
+definitions:
+  securitySchemes:
+    tokenauth:
+      type: basic
+      description: bearer auth
+      name: Authorization
+      in: header
+    demouser:
+      type: basic
+  #-------------------------------------------------------------------
+  #---------------------------ADMIN----------------------------------
+  #-------------------------------------------------------------------
+  userEnquiry:
+    required:
+      - email
+      - name
+      - message
+    properties:
+      email:
+        type: string
+      name:
+        type: string
+      countryCode:
+        type: string
+      mobileNumber:
+        type: string
+      message:
+       type: string
+      location:
+       type: string
+    example:
+      email: "jayesh@gmail.com"
+      name: "jayesh"
+      countryCode: "91"
+      mobileNumber: "147852369"
+      location: "Dubai"
+      message: "I am looking for a Home"
+
+      
+  
+ 

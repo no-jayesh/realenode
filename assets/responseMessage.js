@@ -1,0 +1,20 @@
+module.exports= {
+    ADMIN_NOT_FOUND:"Admin not Found.",
+    INVALID_CREDENTIALS:"Invalid credentials.",
+    LOGIN:"Login successfully.",
+    USER_NOT_FOUND:"User not found.",
+    USER_ALREADY_EXIST:"User already exist.",
+    EMAIL_ALREADY_EXIST:"Email already exist.",
+    MOBILE_ALREADY_EXIST:"Mobile already exist. Please use another mobile number.",
+    OTP_SEND:"OTP send successfully.",
+    INVALID_OTP:'Invalid OTP. Please try again.',
+    OTP_EXPIRED:"Otp expired please resend otp again.",
+    OTP_VERIFY:"Otp verify successfully.",
+    UNAUTHORIZED:"User not authorized.",
+    NEWS_ADDED:"News added successfully.",
+    PASSWORD_RESET:"Password reset successfully.",
+    PASSWORD_NOT_MATCHED:"Password not matched.",
+    ENQUIRY:"Thank you for enquiry.We will contact you soon",
+    USER_EXIT:"This email address already exists.We will contact you soon.",
+    VIEW_PROFILE:"View profile successfully"
+}
