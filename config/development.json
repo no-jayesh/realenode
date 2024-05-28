@@ -1,0 +1,44 @@
+{
+  "port": 2728,
+  "hostAddress": "localhost:2728",
+  "webSocketUrl": "ws://nodepune-realestate.io:2728",
+  "databaseHost": "localhost",
+  "databasePort": "27017",
+  "databaseName": "realestate-node",
+  "jwtsecret": "nodejwt",
+  "jwtresetsecret": "nodejwt",
+  "newsApiKey" : "97016684f280499a86514a305cffec04",
+  "nodemailer": {
+    "service": "gmail",
+    "email": "jayeshdahibhate1234@gmail.com",
+    "password": "cgbf msax nowe uemd",
+    "adminEmail": "vinaykekan235@gmail.com"
+  }, 
+
+
+
+  "cloudinary": {
+    "cloud_name": "dulouq1vy",
+    "api_key": "294256476777763",
+    "api_secret": "a_L0zRYhTzEjDX7tOUPmR0zjthU"
+  },
+  "jwtOptions": {
+    "expiresIn": "24h"
+  },
+  "FAST2SMS":"poWED8gIOvcyj9CwUBZYhk3ReuJiQ4qnz2XSx1FlaGf6LsdV7Kr6esfRkBvp4bZiujxho9cqnmwIYHlX",
+  "swaggerDefinition": {
+    "info": {
+      "title": "REALESTATE",
+      "version": "2.0",
+      "description": "Realestate-node"
+    },
+    "basePath": "/api/v1",
+    "securityDefinitions": {
+      "tokenauth": {
+        "type": "apiKey",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  }
+}
